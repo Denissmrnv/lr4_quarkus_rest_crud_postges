@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Docker Image" type="docker-deploy" factoryName="docker-image" singleton="false" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="image_lr" />
+        <option name="containerName" value="container_lr" />
+        <option name="pullImage" value="ALWAYS" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
